@@ -8,12 +8,12 @@ import 'dart:math' as math;
 import 'coordinate.dart';
 import 'types.dart';
 
-const epsilon = Epsilon();
+Epsilon epsilon = const Epsilon();
 
 class Epsilon {
-  static const eps = 1e-10; // sane default? sure why not
+  final double eps;
 
-  const Epsilon();
+  const Epsilon({this.eps = 1e-10});
 
   bool pointAboveOrOnLine(Coordinate pt, Coordinate left, Coordinate right) {
     final Ax = left.x;
