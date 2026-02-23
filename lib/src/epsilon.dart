@@ -8,7 +8,7 @@ import 'dart:math' as math;
 import 'coordinate.dart';
 import 'types.dart';
 
-var epsilon = const Epsilon();
+Epsilon epsilon = const Epsilon();
 
 class Epsilon {
   final double eps;
