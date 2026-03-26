@@ -28,7 +28,7 @@ this package saves you from writing complex geometry algorithms yourself.
 
 This library is based on:
   * [polybooljs](https://github.com/velipso/polybooljs) by velipso@, which is based on
-  * [polybool c++](https://github.com/akavel/martinez-src) by akavel@, which is based on
+  * [polybool C++](https://github.com/akavel/martinez-src) by akavel@, which is based on
   * an implementation by Mahir Iqbal, which is based on
   * F. Martinez' (2008) algorithm ([Paper](http://www.cs.ucr.edu/~vbz/cs230papers/martinez_boolean.pdf))[Code](https://github.com/akavel/martinez-src)
 
